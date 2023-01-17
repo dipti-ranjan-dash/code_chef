@@ -1,9 +1,5 @@
-T=int(input())
-# for i in range(T):
-#     num=input()
-#     sum=0
-#     l=len(num)
-#     for j in range(l):
-#         sum+=int(num)%10
-#         num=int(num)/10
-#     print(sum)
+for tc in range (int(input())):
+    a,b,c=map(int,input().split())
+    x=a-b
+    y=b+c
+print(map(int,(x,y).split()))
